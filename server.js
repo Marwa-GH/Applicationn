@@ -19,9 +19,9 @@ app.use('/api/order', orderRouter)
 //app.get('/api/config/paypal', (req, res) => res.send(process.env.PAYPAL_CLIENT_ID))
 
   // All remaining requests return the React app, so it can handle routing.
- /* app.get('/*', function(request, response) {
-    response.sendFile(path.resolve(__dirname, '../clients/build', 'index.html'));
-  });*/
+ app.get('/*', function(request, response) {
+    response.sendFile(path.resolve(__dirname, '../clients/public', 'index.html'));
+  });
 
 const PORT= process.env.PORT || 6000;
 
