@@ -4,7 +4,7 @@ const authRouter = require('./Routes/Auth')
 const produitRouter = require("./Routes/ProduitRouter")
 const userRouter =require('./Routes/User')
 const orderRouter = require('./Routes/OrderRoutes')
-
+import path from 'path'
 
 const app = express()
 connectDB()
