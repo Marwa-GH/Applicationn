@@ -12,10 +12,6 @@
     "back": "nodemon server.js",
     "start": "concurrently \"npm run front\" \"npm run back\""
   },
-  "cacheDirectories": [
-    "node_modules",
-    "clients/node_modules"
-  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
