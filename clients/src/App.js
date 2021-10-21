@@ -2,7 +2,7 @@ import './App.css';
 import { useDispatch } from 'react-redux';
 import AppNavbar from './Component/Route/AppNavbar.js'
 import {BrowserRouter as Router , Switch ,Route} from 'react-router-dom'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import Home from './Component/Pages/Home';
 import Dashboard from './Component/Pages/Manager_Products';
 import PrivateRoute from './Component/Routes/PrivateRoute';
