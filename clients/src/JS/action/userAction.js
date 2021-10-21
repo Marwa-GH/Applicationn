@@ -1,6 +1,6 @@
 
 import axios from "axios"
-import { Alert } from "react-bootstrap"
+import React, { Alert } from "react-bootstrap"
 import{
     USER_DETAILS_SUCCESS , USER_DETAILS_FAIL  ,USER_UPDATE_PROFILE_SUCCESS
    ,USER_UPDATE_PROFILE_FAIL , USER_LIST_SUCCESS ,USER_LIST_FAIL 
