@@ -1,4 +1,4 @@
-
+import from "react";
 import "./CartItem.css";
 import { Link } from "react-router-dom";
 
