@@ -1,6 +1,7 @@
 
 import axios from "axios"
-import React, { Alert } from "react-bootstrap"
+import React from "react";
+import { Alert } from "react-bootstrap"
 
 import {LOGIN_USER,
         USER_LOADING,
