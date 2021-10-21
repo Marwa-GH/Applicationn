@@ -20,7 +20,7 @@ app.use('/api/order', orderRouter)
 
   // All remaining requests return the React app, so it can handle routing.
  app.get('*', function(request, response) {
-    response.sendFile(path.join(__dirname+'/clients/public/index.html'));
+    response.sendFile(path.join(__dirname+'/clients/build/index.html'));
   });
 
 const PORT= process.env.PORT || 6000;
