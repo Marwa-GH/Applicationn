@@ -1,0 +1,27 @@
+{
+  "name": "projet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+"engines": {
+    "node": "14.16.0",
+    "npm": "6.14.11"
+  },
+  "scripts": {
+    "front": "cd clients && npm start",
+    "back": "nodemon server.js",
+    "start": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "nodemon": "^2.0.12"
+  }
+}
